@@ -2,3 +2,5 @@
 # Python dependencies for DevOps Core Tooling
 
 # No external dependencies required currently.
+flake8
+pytest

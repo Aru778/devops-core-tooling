@@ -1,14 +1,10 @@
+# Main application file
 
-"""
-DevOps Core Tooling
-Main application entry point.
-"""
-
-
-def main():
-    print("Welcome to DevOps Core Tooling!")
-    print("Git repository initialized successfully.")
+def add_numbers(a, b):
+    """Return the sum of two numbers."""
+    return a + b
 
 
 if __name__ == "__main__":
-    main()
+    result = add_numbers(10, 20)
+    print("Result:", result)
